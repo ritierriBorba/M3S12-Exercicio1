@@ -1,0 +1,32 @@
+ .controleBotao{
+    margin: 3rem 0;
+    width: 100%;
+    box-sizing: border-box;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  
+ }
+  .botoes {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+  }
+    
+  .botao {
+    font-family: 'Lucida Sans', sans-serif;
+    width: 10vw;
+    height: 5vh;
+    border-radius: 14px;
+    margin: 70px 6px;
+    display: flex;
+    border: 2px solid blue;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+    color: #f5f5f5;
+  }
+    
+  #botao1{
+      background-color: blue;
+  }
